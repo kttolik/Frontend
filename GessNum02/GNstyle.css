@@ -1,0 +1,16 @@
+body {
+    background: aquamarine;
+    text-align: center;
+    margin: 30px;
+    font-family: 'Indie Flower', cursive, sans-serif;
+    font-size: 17px;
+}
+img {
+    width: 20%;
+    border-radius: 50%;
+}
+
+button, input {
+    font-family: 'Indie Flower', cursive, sans-serif;
+    font-size: 18px;
+}

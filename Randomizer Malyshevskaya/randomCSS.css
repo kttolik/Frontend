@@ -1,0 +1,32 @@
+html {
+    background-color: burlywood;
+}
+.random {
+    border: 5px solid black;
+    border-radius: 6px;
+    text-align: center;
+    height: 400px;
+    width: 250px;
+}
+.random-inputs {
+    margin: 20px 0 20px 0;
+}
+
+input, label {
+   display:block;
+}
+.main-random {
+    display:flex;
+    justify-content: center;
+    text-align: center;
+}
+.random-generate {
+    height: 20px;
+    width: 100px;
+    margin: 20px 0 20px 0;
+}
+.random-reset {
+    height: 20px;
+    width: 100px;
+    margin: 20px 0 20px 0;
+}

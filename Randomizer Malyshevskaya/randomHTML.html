@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="randomCSS.css">
+
+</head>
+
+<body class="random">
+    <h1>Randomizer</h1>
+    <main class="main-random">
+
+        <form class="random-inputs">
+            <label>min<input type="text" id="min-box" class="min"></label>
+            <label>max<input type="text" id="max-box" class="max"></label>
+            <button type="button" id="generate" class="check-btn" onclick="random()">GENERATE</button>
+            <div id="all-guesses">Ваши овтеты: </div><br>
+            <button type="button" id="reset" class="reset-btn" onclick="window.location.reload()">Reset</button>
+            </form>
+    </main>
+<script src="randomiserJS.js"></script>
+</body>
+</html>
