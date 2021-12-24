@@ -1,14 +1,59 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c1b8dfcb-f88c-4948-a13a-0a940d0bf45e" name="Default Changelist" comment="" />
+    <list default="true" id="c1b8dfcb-f88c-4948-a13a-0a940d0bf45e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Homework 05/.idea/Homework 05.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Homework 05/Homework_05.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Practice/Practice_1/.idea/Практические.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Practice/Practice_1/checkNum.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Practice/Practice_2/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Practice/Practice_2/.idea/Practice_2.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Practice/Practice_2/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Practice/Practice_2/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Practice/Practice_2/src/annOrNot.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Practice/Practice_2/src/mFun.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Practice/Practice_2/src/stopBreak.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Practice/Practice_2/src/test/annOrNot.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Practice/Practice_2/src/test/mFun.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Practice/Practice_2/src/test/stopBreak.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Practice/Practice_3/practice3/.idea/Практика 3.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Practice/Practice_4/.idea/20.12.21.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice/Practice 4/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice/Practice 4/.idea/.name" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice/Practice 4/.idea/20.12.21.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice/Practice 4/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice/Practice 4/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice/Practice 4/20.21.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Randomizer Malyshevskaya/randomiserJS.js" beforeDir="false" afterPath="$PROJECT_DIR$/Randomizer Malyshevskaya/randomiserJS.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Практические/untitled/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Практические/untitled/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Практические/untitled/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Практические/untitled/.idea/untitled.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Практические/untitled/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Практические/untitled/12.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Практические/untitled/12213.css" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectId" id="22E9JweQxz7FV6JZzYU79MxBtXy" />
   <component name="ProjectViewState">
@@ -19,7 +64,85 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Practice/Practice_2" />
+    <property name="nodejs.jest.jest_package" value="$PROJECT_DIR$/Practice/Practice_1/node_modules/jest" />
+    <property name="vue.rearranger.settings.migration" value="true" />
   </component>
+  <component name="RunManager" selected="Jest.isValidString">
+    <configuration name="checkSymbols" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/Practice/Practice_1/node_modules/jest" />
+      <working-dir value="$PROJECT_DIR$/Practice/Practice_1" />
+      <envs />
+      <scope-kind value="SUITE" />
+      <test-file value="$PROJECT_DIR$/Practice/Practice_1/test/isValidString.test.js" />
+      <test-names>
+        <test-name value="checkSymbols" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <configuration name="isSymbol" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/Practice/Practice_1/node_modules/jest" />
+      <working-dir value="$PROJECT_DIR$/Practice/Practice_1" />
+      <envs />
+      <scope-kind value="SUITE" />
+      <test-file value="$PROJECT_DIR$/Practice/Practice_1/test/isValidString.test.js" />
+      <test-names>
+        <test-name value="isSymbol" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <configuration name="isValidString" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/Practice/Practice_1/node_modules/jest" />
+      <working-dir value="$PROJECT_DIR$/Practice/Practice_1" />
+      <envs />
+      <scope-kind value="SUITE" />
+      <test-file value="$PROJECT_DIR$/Practice/Practice_1/test/isValidString.test.js" />
+      <test-names>
+        <test-name value="isValidString" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <configuration name="isValidString.isValidString" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/Practice/Practice_1/node_modules/jest" />
+      <working-dir value="$PROJECT_DIR$/Practice/Practice_1" />
+      <envs />
+      <scope-kind value="TEST" />
+      <test-file value="$PROJECT_DIR$/Practice/Practice_1/test/isValidString.test.js" />
+      <test-names>
+        <test-name value="isValidString" />
+        <test-name value="isValidString" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <configuration name="isValidString.test.js" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/Practice/Practice_1/node_modules/jest" />
+      <working-dir value="$PROJECT_DIR$/Practice/Practice_1" />
+      <envs />
+      <scope-kind value="TEST_FILE" />
+      <test-file value="$PROJECT_DIR$/Practice/Practice_1/test/isValidString.test.js" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Jest.isValidString" />
+        <item itemvalue="Jest.checkSymbols" />
+        <item itemvalue="Jest.isSymbol" />
+        <item itemvalue="Jest.isValidString.test.js" />
+        <item itemvalue="Jest.isValidString.isValidString" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -31,16 +154,14 @@
       <option name="presentableId" value="Default" />
       <updated>1639391810799</updated>
       <workItem from="1639391814110" duration="47000" />
+      <workItem from="1640275436579" duration="14927000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="2" />
+    <option name="version" value="3" />
   </component>
-  <component name="WindowStateProjectService">
-    <state x="499" y="171" key="FileChooserDialogImpl" timestamp="1639391849796">
-      <screen x="0" y="0" width="1440" height="860" />
-    </state>
-    <state x="499" y="171" key="FileChooserDialogImpl/0.0.1440.860@0.0.1440.860" timestamp="1639391849796" />
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/MalishevskayaPractice02_js$isValidString.info" NAME="isValidString Coverage Results" MODIFIED="1640286984395" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="JestJavaScriptTestRunnerCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>

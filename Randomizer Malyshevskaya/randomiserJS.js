@@ -1,12 +1,10 @@
 let min_box = document.getElementById("min-box");
 let max_box = document.getElementById("max-box");
 
-let buttonGenerate = document.getElementById("generate")
+let buttonGenerate = document.getElementById("generate");
 buttonGenerate.onclick = random(min, max);
 
-let all_guesses = document.getElementById("all-guesses");
-
-
+// let all_guesses = document.getElementById("all-guesses");
 
 function random() {
     let min = Number(min_box.value);
@@ -15,12 +13,11 @@ function random() {
         min = Math.ceil(min);
         max = Math.floor(max);
         let ranNum = Math.floor(Math.random() * (max - min + 1)) + min;
-        alert(ranNum);
-        let arrRandom = [];
-        arrRandom.unshift(ranNum);
+        document.getElementById('all-guesses').innerHTML= ranNum;
 
     }
 }
+
 // function random() {
 //     let min = Number(min_box.value);
 //     let max = Number(max_box.value);

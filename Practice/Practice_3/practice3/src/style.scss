@@ -1,0 +1,99 @@
+
+
+.Calendar-body {
+  margin: 0 auto;
+  background-color: #999999;
+}
+
+ .name-calendar {
+    display: grid;
+    background-color: aquamarine;
+    border: 1px solid #999;
+    border-radius: 6px;
+    height: 60px;
+    width: 489px;
+    color: black;
+    justify-content: center;
+    align-items: center;
+   font-family: 'Shalimar', cursive;
+  }
+
+
+  .days-of-week, {
+    display: grid;
+    text-align: center;
+    grid-template-columns: repeat(7, 70px);
+    background-color: aquamarine;
+    border: 1px solid #999;
+    border-radius: 6px;
+    height: 40px;
+    width: 489px;
+    color: black;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Inconsolata', monospace;
+  }
+
+  #party {
+    background-color: aquamarine;
+
+    &:hover {
+      background-color: blue;
+    }
+  }
+
+  .calendar-days {
+    font-size: 20px;
+    color: black;
+    width: 489px;
+    display: grid;
+    grid-template-columns: repeat(7, 70px);
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Inconsolata', monospace;
+
+  }
+
+  .calendar-days label:hover {
+    background-color: aquamarine;
+    color: #fff;
+    cursor: pointer;
+
+  }
+
+  .calendar-disabled {
+    background-color: #cccccc;
+    color: #999999;
+    cursor: not-allowed;
+    font-family: 'Inconsolata', monospace;
+  }
+
+  .calendar-days input[type=radio] {
+    display: none;
+  }
+
+  .calendar-days label {
+    cursor: pointer;
+    padding: 0px 15px;
+    line-height: 34px;
+    border: 1px solid #999;
+    border-radius: 6px;
+    user-select: none;
+    text-align: center;
+  }
+
+  .calendar-days input[type=radio]:checked + label {
+    background: #ffe0a6;
+  }
+
+  /* Hover */
+  .calendar-days label:hover {
+    color: azure;
+  }
+
+  .calendar-days-weekend {
+    background-color: #ffe0a6;
+  }
+
+
