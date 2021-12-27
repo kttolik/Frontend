@@ -1,0 +1,20 @@
+{
+  "name": "homework-05",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/Homework_05.js",
+  "scripts": {
+    "cmd": "gulp",
+    "build": "yarn cmd default",
+    "watch": "yarn cmd watch"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-sass": "^5.0.0",
+  },
+  "dependencies": {
+    "yarn": "^1.22.17"
+  }
+}

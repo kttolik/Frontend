@@ -1,32 +1,50 @@
 html {
-    background-color: burlywood;
+    background: url("https://i0.wp.com/moon-mood.ru/wp-content/uploads/2020/08/0chto-nuzhno-znat-nachinajushhej-vedme.jpg?fit=2362%2C1574&ssl=1");
+    background-size: cover;
 }
-.random {
+
+.main {
+    margin: auto;
+    padding: 2%;
     border: 5px solid black;
     border-radius: 6px;
     text-align: center;
-    height: 400px;
-    width: 250px;
+    width: 20%;
+    font-size: 130%;
+    background-color: bisque;
 }
-.random-inputs {
+
+.main__random {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 10%;
+}
+
+.random__inputs {
     margin: 20px 0 20px 0;
+
 }
 
 input, label {
-   display:block;
-}
-.main-random {
-    display:flex;
-    justify-content: center;
-    text-align: center;
-}
+    display: block;
+    }
+
 .random-generate {
     height: 20px;
     width: 100px;
     margin: 20px 0 20px 0;
+
 }
+
 .random-reset {
     height: 20px;
     width: 100px;
     margin: 20px 0 20px 0;
+
+}
+
+.random__inputs-check {
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
