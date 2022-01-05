@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1640336379925" clover="3.2.0">
-  <project timestamp="1640336379925" name="All files">
+<coverage generated="1641326385202" clover="3.2.0">
+  <project timestamp="1641326385202" name="All files">
     <metrics statements="16" coveredstatements="15" conditionals="8" coveredconditionals="7" methods="1" coveredmethods="1" elements="25" coveredelements="23" complexity="0" loc="16" ncloc="16" packages="1" files="1" classes="1"/>
     <file name="checkNum.js" path="D:\An\Frontend\DevEducation\testRepo\Practice\Practice_1\checkNum.js">
       <metrics statements="16" coveredstatements="15" conditionals="8" coveredconditionals="7" methods="1" coveredmethods="1"/>
