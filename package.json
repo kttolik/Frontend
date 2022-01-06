@@ -1,0 +1,8 @@
+{
+  "name": "testRepo",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/kttolik/test.git",
+  "author": "kttolik <kttolikdreamer@gmail.com>",
+  "license": "MIT"
+}

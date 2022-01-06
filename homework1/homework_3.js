@@ -22,7 +22,7 @@
     { maxItem = arrMaxItem[i];
     }
     }
-    alert(maxItem + ' максимум')
+    return(maxItem + ' максимум')
     }
     */
 // проверка oneMoreArr = [22, 11, 5, -1];

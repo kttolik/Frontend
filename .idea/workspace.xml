@@ -2,37 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c1b8dfcb-f88c-4948-a13a-0a940d0bf45e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Homework 05/.idea/Homework 05.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Homework 05/Homework_05.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Practice/Practice_1/.idea/Практические.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Practice/Practice_1/checkNum.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Practice/Practice_2/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Practice/Practice_2/.idea/Practice_2.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Practice/Practice_2/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Practice/Practice_2/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Practice/Practice_2/src/annOrNot.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Practice/Practice_2/src/mFun.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Practice/Practice_2/src/stopBreak.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Practice/Practice_2/src/test/annOrNot.test.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Practice/Practice_2/src/test/mFun.test.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Practice/Practice_2/src/test/stopBreak.test.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Practice/Practice_3/practice3/.idea/Практика 3.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Practice/Practice_4/.idea/20.12.21.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practice/Practice 4/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practice/Practice 4/.idea/.name" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practice/Practice 4/.idea/20.12.21.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practice/Practice 4/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practice/Practice 4/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practice/Practice 4/20.21.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Randomizer Malyshevskaya/randomiserJS.js" beforeDir="false" afterPath="$PROJECT_DIR$/Randomizer Malyshevskaya/randomiserJS.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Практические/untitled/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Практические/untitled/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Практические/untitled/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Практические/untitled/.idea/untitled.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Практические/untitled/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Практические/untitled/12.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Практические/untitled/12213.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homework 05/gulpfile.js" beforeDir="false" afterPath="$PROJECT_DIR$/Homework 06/gulpfile.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homework 05/homework_objects in javascript.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/Homework 06/homework_objects in javascript.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homework 05/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/Homework 06/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homework 05/src/Homework_05.js" beforeDir="false" afterPath="$PROJECT_DIR$/Homework 06/src/Homework_05.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homework 05/yarn-error.log" beforeDir="false" afterPath="$PROJECT_DIR$/Homework 06/yarn-error.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homework 05/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Homework 06/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice/Practice_3/practice3/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/Practice/Practice_3/practice3/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,8 +40,9 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/Practice/Practice_2" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs.jest.jest_package" value="$PROJECT_DIR$/Practice/Practice_1/node_modules/jest" />
+    <property name="nodejs_package_manager_path" value="yarn" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RunManager" selected="Jest.isValidString">
@@ -155,6 +132,7 @@
       <updated>1639391810799</updated>
       <workItem from="1639391814110" duration="47000" />
       <workItem from="1640275436579" duration="14927000" />
+      <workItem from="1641456018202" duration="124000" />
     </task>
     <servers />
   </component>
