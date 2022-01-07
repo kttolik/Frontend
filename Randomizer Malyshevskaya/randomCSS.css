@@ -21,20 +21,31 @@ html {
     padding: 10%;
 }
 
+.main__name {
+    font-family: cursive;
+}
+
 .random__inputs {
     margin: 20px 0 20px 0;
 
 }
 
+.random__inputs-min {
+    border-color: azure;
+}
+
+.random__inputs-max {
+    border-color: goldenrod;
+}
+
 input, label {
     display: block;
-    }
+}
 
 .random-generate {
     height: 20px;
     width: 100px;
     margin: 20px 0 20px 0;
-
 }
 
 .random-reset {
@@ -47,4 +58,5 @@ input, label {
 .random__inputs-check {
     margin-top: 20px;
     margin-bottom: 20px;
+
 }

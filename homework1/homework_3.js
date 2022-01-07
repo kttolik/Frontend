@@ -1,15 +1,21 @@
 // 1.	Найти минимальный элемент массива
-   /*function minItFunk(arrMinItem) {
+/*
+
+   function minItFunk(arrMinItem) {
     let minItem = arrMinItem[0]; // Первый элемент принимаем за минимальный.
     for(let i = 0; i < arrMinItem.length; i++) {
     if (arrMinItem[i] < minItem) {
     minItem = arrMinItem[i];
     }
     }
-    alert(minItem + ' минимум')
-    }*/
-// проверка someArr = [22, 11, 5, -1];
-//            minItFunk(someArr)
+    return (minItem);
+    }
+
+// проверка
+
+
+console.log(minItFunk([22, 11, 5, -1]));
+*/
 
 
 
@@ -31,52 +37,37 @@
 
 // 3.	Найти индекс минимального элемента массива
 // Заполнение массива
-    /*let arrMinItem = [-13, 12, 2, 1];
-    let minItem = 0;
-    for(let i = 0; i < arrMinItem.length; i++) {
-    if (arrMinItem[i] < minItem)
-    { minItem = arrMinItem[i];
-    minItemIndex = [i];
-    }
-    }
-    console.log(minItemIndex)*/
+
 
 /*  function showMinItem(arrMinItem) {
-    let minItem = 0;
+    let minItem = arrMinItem[0];
+    let minItemIndex = 0;
     for (let i = 0; i < arrMinItem.length; i++) {
     if (arrMinItem[i] < minItem) {
     minItem = arrMinItem[i];
-    minItemIndex = [i];
+    minItemIndex = i;
     }
     }
-    console.log(minItemIndex)
+    return minItemIndex;
     }
     */
 
 
 // 4.	Найти индекс максимального элемента массива
-// Заполнение массива
-  /*  let arrMaxItem = [13, -12, 2, 1];
-    let maxItem = 0;
-    for(let i = 0; i < arrMaxItem.length; i++) {
-    if (arrMaxItem[i] > maxItem)
-    { maxItem = arrMaxItem[i];
-        maxItemIndex = [i];
-    }
-    }
-   console.log(maxItemIndex)*/
 
 // через функцию
     /*
     function showMaxItem(arrMaxItem) {
-    let maxItem = 0;
+    let maxItem = arrMaxItem[0];
+    let maxItemIndex = 0;
+
     for(let i = 0; i < arrMaxItem.length; i++) {
     if (arrMaxItem[i] > maxItem)
     { maxItem = arrMaxItem[i];
-    maxItemIndex = [i];
+    maxItemIndex = i;
     }
     }
-    console.log(maxItemIndex)
+    return maxItemIndex;
     }
     */
 
@@ -115,7 +106,7 @@
     }
     }
     changeArr(arr);
-    alert(arr);
+    return (arr);
     */
 
 
@@ -135,15 +126,19 @@
 // 8.	Поменять местами первую и вторую половину массива, например, для массива
 // 1 2 3 4, результат 3 4 1 2
 /*
-const myArray = [1,2,3,4];
+function halfСhange(myArray){
 const lastElArray = myArray.pop();
 const lastOfLast =  myArray.pop();
-myArray.unshift(4, 3);
-console.log(myArray);*/
+myArray.unshift(lastElArray, lastOfLast);
+return (myArray);
+}
+*/
 
 
 // 9.	Отсортировать массив (пузырьком (Bubble):
-/*function bubbleSort (array) {
+/*
+
+function bubbleSort (array) {
     for (let n = 0; n < array.length; n++) {
         for (let i = 0; i < array.length - 1 - n; i++) {
             if (array[i] > array[i + 1]) {
@@ -154,9 +149,12 @@ console.log(myArray);*/
         }
     }
     return array
-    }*/
+    }
+
+    */
 // let arrNeedForSort = [-2,15,21,64,90,30,41,101,89,11];
 // bubbleSort (arrNeedForSort)
+
 // выбором (Select):
 /*function selectionSort(inputArr) {
     let n = inputArr.length;
@@ -181,36 +179,22 @@ console.log(myArray);*/
 
     // сортировка вставками:
     /*
-   (function() {
-    let oSort= function() {
-          let that = {};
+function insertSort(arr) {
 
-        //собственно сама функция сортировки
-        that.insertionSort = function(a) {
-            let i;
-            let j;
-            let x;
-                iCount = that.getCountOfElements(a);
-              for( i=0; i<iCount; i++) {
-                x = a[i];
-                for( j=i-1; j>=0 && a[j]>x; j-- ) {
-                    a[j+1] = a[j];
-                }
-                a[j+1] = x;
-            }
-              return a;
-        };
-          that.getCountOfElements = function(a) {
-            let i = 0,
-                elem;
-            for (elem in a) {
-                i++
-            }
-            return i;
-        };
+    for (let i = 1; i < arr.length; i++) {
+        const someArr = arr[i];
+        let j = i;
 
-        return that;
-      }();
+        while (j > 0 && arr[j - 1] > someArr) {
+            arr[j] = arr[j - 1];
+            j--;
+        }
+
+        arr[j] = someArr;
+    }
+
+    return arr;
+}
       console.log(oSort.insertionSort([9, 13, 7, 12, 10, 14, 8, 11, 6]));
     //[6, 7, 8, 9, 10, 11, 12, 13, 14]
 
@@ -220,21 +204,18 @@ console.log(myArray);*/
 
 // Сортировка merge:
 /*function mergeSort (unsortedArray) {
-    // Нет необходимости сортировать массив, если в массиве только один элемент или он пуст.
+
     if (unsortedArray.length <= 1) {
         return unsortedArray;
     }
-    // Чтобы разделить массив пополам, нам нужно выяснить середину
+
     const middle = Math.floor(unsortedArray.length / 2);
 
-    // делим масив на левый и правый
+
     const left = unsortedArray.slice(0, middle);
     const right = unsortedArray.slice(middle);
 
-    // используем рекурсию для соединения левой и правой части
-    return merge(
-        mergeSort(left), mergeSort(right)
-    );
+    return merge( mergeSort(left), mergeSort(right) );
 }*/
 
 // сортировка shell
@@ -256,7 +237,8 @@ console.log(myArray);*/
 
     }
     return array;
-    };*/
+    };
+    */
 
 // СОртировка кучи
 /*
