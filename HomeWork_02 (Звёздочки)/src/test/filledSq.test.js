@@ -16,7 +16,5 @@ describe('filledSq', () => {
                 ' *  *  *  *  *  *  * \n' +
                 ' *  *  *  *  *  *  * \n');
     });
-    afterEach(() => {
-        jest.clearAllMocks();
-    });
+
 })

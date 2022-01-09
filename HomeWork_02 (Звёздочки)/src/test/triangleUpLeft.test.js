@@ -16,7 +16,5 @@ describe('triangleUpLeft', () => {
                 ' *  *                \n' +
                 ' *                   \n');
     });
-    afterEach(() => {
-        jest.clearAllMocks();
-    });
+
 });

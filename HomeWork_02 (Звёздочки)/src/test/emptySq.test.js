@@ -16,7 +16,5 @@ describe('emptySq', () => {
                 ' *                 * \n' +
                 ' *  *  *  *  *  *  * \n');
     });
-    afterEach(() => {
-        jest.clearAllMocks();
-    });
+
 })
