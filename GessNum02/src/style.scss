@@ -1,0 +1,43 @@
+body {
+  background: khaki;
+  text-align: center;
+  margin: auto;
+  font-family: 'Indie Flower', cursive, sans-serif;
+  font-size: 130%;
+
+}
+
+.main {
+  border: 5px solid black;
+  width: 50%;
+  margin: auto;
+  justify-content: center;
+  Align-items: center;
+  text-align: center;
+
+  &_img {
+    width: 30%;
+    border-radius: 50%;
+    margin: 10px 0 10px 0;
+  }
+
+  &_main-section {
+    padding: 1%;
+  }
+
+}
+
+.main-section_form {
+  padding: 1%;
+}
+
+.main-section_change-btn {
+  margin-bottom: 40px;
+}
+
+button, input {
+  font-family: 'Indie Flower', cursive, sans-serif;
+  font-size: 100%;
+}
+
+
