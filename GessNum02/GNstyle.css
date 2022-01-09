@@ -1,16 +1,25 @@
 body {
-    background: aquamarine;
+    background: khaki;
     text-align: center;
-    margin: 30px;
+    margin: auto;
     font-family: 'Indie Flower', cursive, sans-serif;
-    font-size: 17px;
+    font-size: 130%;
+
 }
-img {
-    width: 20%;
+.main-img {
+    width: 17%;
     border-radius: 50%;
+    margin: 10px 0 10px 0;
 }
 
 button, input {
     font-family: 'Indie Flower', cursive, sans-serif;
-    font-size: 18px;
+    font-size: 100%;
+}
+
+.main-section {
+    padding: 1%;
+}
+.main-section_form {
+    padding: 1%;
 }

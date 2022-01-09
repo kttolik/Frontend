@@ -1,8 +1,8 @@
 Arguments: 
-  C:\Program Files\nodejs\node.exe D:\An\Frontend\DevEducation\testRepo\Homework 05\node_modules\yarn\bin\yarn.js watch
+  C:\Program Files\nodejs\node.exe C:\Users\an\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js init
 
 PATH: 
-  D:\An\Frontend\DevEducation\testRepo\Homework 05\node_modules\.bin;C:\Program Files\AdoptOpenJDK\jdk-11.0.11.9-hotspot\bin;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\nodejs\;C:\Program Files\Git\cmd;C:\Users\an\AppData\Local\Microsoft\WindowsApps;;C:\Users\an\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\an\AppData\Roaming\npm
+  D:\An\Frontend\DevEducation\testRepo\Homework 06\node_modules\.bin;C:\Program Files\AdoptOpenJDK\jdk-11.0.11.9-hotspot\bin;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\nodejs\;C:\Program Files\Git\cmd;C:\Users\an\AppData\Local\Microsoft\WindowsApps;;C:\Users\an\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\an\AppData\Roaming\npm
 
 Yarn version: 
   1.22.17
@@ -14,12 +14,12 @@ Platform:
   win32 x64
 
 Trace: 
-  SyntaxError: D:\An\Frontend\DevEducation\testRepo\Homework 05\package.json: Unexpected token } in JSON at position 314
+  SyntaxError: D:\An\Frontend\DevEducation\testRepo\Homework 06\package.json: Unexpected token } in JSON at position 314
       at JSON.parse (<anonymous>)
-      at D:\An\Frontend\DevEducation\testRepo\Homework 05\node_modules\yarn\lib\cli.js:1625:59
+      at C:\Users\an\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:1625:59
       at Generator.next (<anonymous>)
-      at step (D:\An\Frontend\DevEducation\testRepo\Homework 05\node_modules\yarn\lib\cli.js:310:30)
-      at D:\An\Frontend\DevEducation\testRepo\Homework 05\node_modules\yarn\lib\cli.js:321:13
+      at step (C:\Users\an\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:310:30)
+      at C:\Users\an\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:321:13
 
 npm manifest: 
   {
