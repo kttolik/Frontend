@@ -57,11 +57,11 @@ getNumber([0, 2, 8, -4, 0, -122, 13, -4, 28, 12]) //returns 13
 */
 
 
-
-// 3. Принимая массив объектов и случайную строку. У объектов может
-// быть ключ: «title» с разными значениями. Создайте алгоритм, который
+//
+//  3. Принимая массив объектов и случайную строку. У объектов может
+//  быть ключ: «title» с разными значениями. Создайте алгоритм, который
 // фильтрует массив, заданный как первый параметр, и возвращает массив
-// объектов, которые содержат в своих заголовках заданную строку в
+//  объектов, которые содержат в своих заголовках заданную строку в
 // качестве второго параметра (без учета регистра).
 /*
 function findTitle(array, ‘string’) {
@@ -102,14 +102,29 @@ countCharacters(‘a 2ab !d’) // should return {a: 2, b:1, d:1, 2:1}*/
 //     Палиндром - это слово, фраза, число или другая последовательность
 // символов, которая читается так же, как вперед и назад, например,
 // «мадам».
+
 /*
 function getNextPalindrome(number) {
-    let result;
-//Your code here
-    return result;
+    if(typeof number !== 'number') {
+        return false;
+    }
+
+    let num = number + 1;
+
+    if (number < 11) {
+        num = 11;
+    }
+
+    while (num.toString().split('').reverse().join('') !== num.toString()) {
+        num++
+    }
+
+    return num;
 }
+
 getNextPalindrome(7) // returns 11
 getNextPalindrome(99) //returns 101
 getNextPalindrome(132) // returns 141
 getNextPalindrome(888) // returns 898
-getNextPalindrome(999) // returns 1001*/
+getNextPalindrome(999) // returns 1001
+*/
