@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Игра в угадай число</title>
+    <link rel="stylesheet" type="text/css" href="./style.css">
+</head>
+<body class="main">
+<h1 class="main__name">Randomizer</h1>
+<main class="main__random">
+
+    <form class="main__random-inputs">
+        <label>min<input type="number" id="min-box" class="main__random-inputs-min"></label>
+        <label>max<input type="number" id="max-box" class="main__random-inputs-max"></label>
+        <button type="button" id="generate" class="main__random-inputs-check" onclick="random()">GENERATE</button>
+        <div id="all-guesses">Ваши овтеты: </div><br>
+        <button type="button" id="reset" class="main__random-reset" onclick="reset()">Reset</button>
+    </form>
+</main>
+<script src="randomiserJS.js"></script>
+</body>
+</html>

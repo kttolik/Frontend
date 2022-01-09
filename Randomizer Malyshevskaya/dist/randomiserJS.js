@@ -27,9 +27,9 @@ function random() {
     }
 
     if ((max <= min) || (isNaN(min)) && (isNaN(max))) {
-        alert('Ты всё сломал!');
+
         document.getElementById('generate').disabled = true;
-        document.getElementById('all-guesses').innerHTML = '';
+        document.getElementById('all-guesses').innerHTML = 'Ты всё сломал!';
     }
 
 }
