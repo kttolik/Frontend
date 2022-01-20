@@ -4,7 +4,8 @@
     "target": "es5",
     "sourceMap": true
   },
-  "include": ["src/ts/**/*"],
+  "moduleResolution": "node",
+  "include": ["src/ts/**/*.ts"],
   "exclude": [
     "node_modules"
   ]
