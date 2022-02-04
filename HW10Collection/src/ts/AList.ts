@@ -2,7 +2,6 @@ import {IList} from './types';
 
 export class AList implements IList {
     private readonly array: number [];
-
     private size: number;
 
     constructor() {
@@ -28,12 +27,13 @@ export class AList implements IList {
        return false
     }
 
-    get(idx): void {
+    get(idx): number {
+        return this.array[idx];
 
     }
 
     getSize(): number {
-        return 0;
+        return this.size;
     }
 
     helpRevers(): void {
@@ -41,23 +41,55 @@ export class AList implements IList {
     }
 
     maxIndex(): number {
-        return 0;
+        let maxItem = this.array[0];
+        let maxItemIndex = 0;
+
+        for(let i = 0; i < this.array.length; i++) {
+            if (this.array[i] > maxItem)
+            { maxItem = this.array[i];
+                maxItemIndex = i;
+            }
+        }
+        return maxItemIndex;
     }
 
     maxValue(): number {
-        return 0;
+        let maxItem = this.array[0];
+        for(let i = 0; i < this.array.length; i++) {
+            if (this.array[i] > maxItem)
+            { maxItem = this.array[i];
+            }
+        }
+        return maxItem;
     }
 
     minIndex(): number {
-        return 0;
+        let minItem = this.array[0];
+        let minItemIndex = 0;
+        for (let i = 0; i < this.array.length; i++) {
+            if (this.array[i] < minItem) {
+                minItem = this.array[i];
+                minItemIndex = i;
+            }
+        }
+        return minItemIndex;
     }
 
     minValue(): number {
-        return 0;
+        let minItem = this.array[0];
+        for(let i = 0; i < this.array.length; i++) {
+            if (this.array[i] < minItem) {
+                minItem = this.array[i];
+            }
+        }
+        return minItem;
+
     }
 
     print(): void {
-
+        for (let i = 0; i < this.size; i++) {
+            console.log(this.array[i]);
+        }
     }
 
     remove(item): void {
@@ -73,7 +105,12 @@ export class AList implements IList {
     }
 
     revers(): void {
-
+        let reversArr = [];
+        reversArr.length = this.size;
+        for (let i = 0; i < this.size; i++) {
+            reversArr[reversArr.length - i - 1] = this.array[i];
+        }
+        reversArr = this.array ;
     }
 
     set(item, idx): void {
@@ -85,6 +122,8 @@ export class AList implements IList {
     }
 
     toArray(): number[] {
-        return [];
+        return this.array;
     }
 }
+
+module.exports = {AList};
