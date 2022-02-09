@@ -3,7 +3,6 @@ body {
 
 }
 
-
 .main-content__toolbar {
     display: inline-block;
     float: left;
@@ -18,7 +17,6 @@ body {
     width: 475px;
 
 }
-
 
 .toolbar__changes {
     display: flex;

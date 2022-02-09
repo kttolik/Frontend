@@ -1,7 +1,8 @@
-let canvas;
-let context;
+const canvas = document.getElementById("drawingCanvas");
+const context = canvas.getContext("2d");
+const colorWell = document.querySelector("#color");
 let isDrawing;
-let colorWell;
+
 
 window.addEventListener("load", startup, false);
 addListener("color", 'change', changeColor);
@@ -18,8 +19,6 @@ function addListener(id, eventType, callback) {
 }
 
 window.onload = function () {
-    canvas = document.getElementById("drawingCanvas");
-    context = canvas.getContext("2d");
     // Подключаем требуемые для рисования события
     canvas.onmousedown = startDrawing;
     canvas.onmouseup = stopDrawing;
@@ -52,7 +51,6 @@ function stopDrawing() {
 
 function startup() {
     const defaultColor = "#0000ff";
-    colorWell = document.querySelector("#color");
     colorWell.value = defaultColor;
     colorWell.select();
 }
@@ -63,9 +61,9 @@ function changeColor(event) {
 }
 
 function changeLineWidth() {
-    let linThic = document.getElementById('thickness');
-    context.lineWidth = linThic.value;
-    let p = document.getElementById('lineVal');
+    const linThick = document.getElementById('thickness');
+    context.lineWidth = linThick.value;
+    const p = document.getElementById('lineVal');
     p.innerHTML = context.lineWidth;
 }
 
@@ -74,8 +72,8 @@ function clearCanvas() {
 }
 
 function saveCanvas() {
-    let dataURL = canvas.toDataURL("image/jpeg");
-    let link = document.createElement("a");
+    const dataURL = canvas.toDataURL("image/jpeg");
+    const link = document.createElement("a");
     document.body.appendChild(link);
     link.href = dataURL;
     link.download = "my-image-name.json";
