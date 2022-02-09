@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>generate</title>
+    <link rel="stylesheet" href="generate.css">
+
+
+
+</head>
+<body>
+<main class="main-content">
+    <h1>Visa competition!!!</h1>
+    <section class="main-content_generate generate">
+    <form class="generate__name generate">
+        <label> Name <input placeholder="Enter student name" type=text id="input-name">
+            <input type=button class="generate__btn"  id="name-generate" value="GENERATE">
+        </label>
+    </form>
+        <form class="generate__balance generate">
+            <label> Balance <input placeholder="Enter balance" id="input-balance">
+                <input type=button class="generate__btn" id="balance-generate" value="GENERATE">
+            </label>
+        </form>
+        <form class="generate__age generate">
+            <label> Age <input placeholder="Enter student age" id="input-age">
+                <input type=button class="generate__btn" id="age-generate" value="GENERATE">
+            </label>
+        </form>
+        <form class="generate__documents generate">
+            <label> Documents <input placeholder="Enter documents" id="input-doc">
+                <input type=button class="generate__btn" id="doc-generate" value="GENERATE">
+            </label>
+        </form>
+        <form class="generate__english generate">
+            <label> English <input placeholder="Enter student english level"id="input-eng">
+                <input type=button class="generate__btn" id="eng-generate" value="GENERATE">
+            </label>
+        </form>
+        <form class="generate__buttons buttons generate">
+            <button class="buttons__all" id="generateAllBtn">Generate all</button>
+            <button class="buttons__init">Init</button>
+            <button class="buttons__add">Add candidate</button>
+            <button class="buttons__race">Race</button>
+            <button class="buttons__clear" id="clearBtn">Clear</button>
+    </form>
+    </section>
+</main>
+<script src="generate.js"></script>
+</body>
+</html>

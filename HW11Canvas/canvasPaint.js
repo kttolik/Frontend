@@ -1,6 +1,6 @@
 const canvas = document.getElementById("drawingCanvas");
 const context = canvas.getContext("2d");
-const colorWell = document.querySelector("#color");
+const colorWell = document.getElementById("color");
 let isDrawing;
 
 

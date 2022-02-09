@@ -1,0 +1,186 @@
+main {
+    background-color: slategrey;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+}
+
+.main-gallery {
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+    padding: 10px 0 10px 0;
+}
+
+.container {
+    height: 550px;
+    background-color: white;
+}
+
+.container-img {
+    width: 100%;
+}
+
+.main-gallery_scrolling {
+    overflow-x: scroll;
+    overflow-y: hidden;
+    white-space: nowrap;
+    word-wrap: normal;
+    height: 150px;
+}
+
+.main-gallery_scrolling img {
+    width: 100%; /*  W img */
+    height: 40%; /* h img */
+    object-fit: cover;
+}
+
+.main-gallery_scrolling img:hover {
+    opacity: 0.1;
+}
+
+.scrolling-all {
+    margin: 0;
+    width: 35%;
+    height: 400px;
+
+}
+
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0, 0, 0); /* Fallback color */
+    background-color: rgba(0, 0, 0, 0.9); /* Black w/ opacity */
+}
+
+/* Modal Content (image) */
+.modal-content {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+}
+
+.slide-show {
+    visibility: hidden;
+}
+
+.slide-container {
+    position: relative;
+    height: 300px;
+    padding: 0px;
+    margin: 0px;
+    list-style-type: none;
+}
+
+.slide {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 185%;
+    opacity: 0;
+    z-index: 1;
+
+    -webkit-transition: opacity 1s;
+    -moz-transition: opacity 1s;
+    -o-transition: opacity 1s;
+    transition: opacity 1s;
+}
+
+.showing {
+    opacity: 1;
+    z-index: 2;
+}
+
+
+.controls {
+    display: none;
+}
+
+.slide {
+    font-size: 40px;
+    padding: 40px;
+    box-sizing: border-box;
+    background: #333;
+    color: #fff;
+    background-size: cover;
+}
+
+
+.controls:hover, .close:hover, .start-btn:hover,
+.controls:focus, .close:focus, .start-btn:focus {
+    background: #eee;
+    color: #333;
+}
+
+.modal__container {
+    position: relative;
+    width: 70%;
+    margin-left: 15%;
+}
+
+
+.start-btn {
+    width: 140px;
+    height: 35px;
+    border: none;
+    border-radius: 5px;
+    background-color: #333333;
+    color: white;
+    margin-left: 110%;
+}
+
+
+.buttons {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    z-index: 10;
+    font-size: 0px;
+    background-color: #1e1b1b;
+
+}
+
+
+.controls {
+    background: #333;
+    color: #fff;
+    padding: 20px 0px;
+    font-size: 20px;
+    cursor: pointer;
+    border: 2px solid #fff;
+    margin: 10px 0px 0px 25px;
+    width: 70px;
+}
+
+
+/* The Close Button */
+.close {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: #f1f1f1;
+    font-size: 40px;
+    transition: 0.3s;
+    background-color: #333;;
+    width: 70px;
+    height: 70px;
+    text-align: center;
+    border: 2px solid #fff;
+}
+
+
+

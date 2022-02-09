@@ -17,8 +17,12 @@ export class LList implements IList {
 
     add: (item) => void;
     clear: () => void;
-    contains: (item) => boolean;
-    get: (idx) => void;
+    contains (item): boolean {
+    return false;
+    }
+    get (index: number): number {
+    return 0;
+}
     getSize: () => number;
     helpRevers: () => void;
     maxIndex: () => number;

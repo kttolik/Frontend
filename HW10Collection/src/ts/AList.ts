@@ -1,7 +1,7 @@
 import {IList} from './types';
 
 export class AList implements IList {
-    private readonly array: number [];
+    private array: number [];
     private size: number;
 
     constructor() {
@@ -92,16 +92,54 @@ export class AList implements IList {
         }
     }
 
-    remove(item): void {
+    remove(item: number): void {
+        const oldArray = this.array;
+        this.array = [];
+        this.size = 0;
+        let returnValue;
 
+        for (let i = 0; i < oldArray.length; i++) {
+            const element = oldArray[i];
+            if (element !== item) {
+                this.add(element);
+            } else {
+                returnValue = element;
+            }
+        }
+        return returnValue;
     }
 
     removeAll(items: number[]): void {
-
+        for (let i = 0; i < this.array.length; i++) {
+            let remove = true;
+            for (let j = 0; j < items.length; j++) {
+                if (this.array[i] === items[j]) {
+                    remove = false;
+                    break;
+                }
+            }
+            if (!remove) {
+                this.array[i] = undefined;
+                this.size--;
+            }
+        }
     }
 
     retainAll(items: number[]): void {
+        const preArr = this.array;
+        this.array = [];
+        this.size = 0;
 
+        for (let i = 0; i < preArr.length; i++) {
+            const item = preArr[i];
+            for (let j = 0; j < items.length; j++) {
+                const insItem = items[j];
+                if (item === insItem) {
+                    this.add(item);
+                    break;
+                }
+            }
+        }
     }
 
     revers(): void {
@@ -117,8 +155,18 @@ export class AList implements IList {
 
     }
 
-    sort(): void {
-
+    sort(): number[] {
+    let array = this.array;
+        for (let n = 0; n < array.length; n++) {
+            for (let i = 0; i < array.length - 1 - n; i++) {
+                if (array[i] > array[i + 1]) {
+                    const bubbl = array[i]
+                    array[i] = array[i + 1]
+                    array[i + 1] = bubbl
+                }
+            }
+        }
+        return array
     }
 
     toArray(): number[] {
