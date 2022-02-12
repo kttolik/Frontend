@@ -1,8 +1,8 @@
 Arguments: 
-  C:\Program Files\nodejs\node.exe C:\Users\an\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js init
+  C:\Program Files\nodejs\node.exe C:\Users\an\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js add @types/jext --dev
 
 PATH: 
-  D:\An\Frontend\DevEducation\testRepo\HW10Collection\node_modules\.bin;C:\Program Files\AdoptOpenJDK\jdk-11.0.11.9-hotspot\bin;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\nodejs\;C:\Program Files\Git\cmd;C:\Users\an\AppData\Local\Microsoft\WindowsApps;;C:\Users\an\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\an\AppData\Roaming\npm
+  D:\An\Frontend\DevEducation\testRepo\HW10Collection\node_modules\.bin;C:\Program Files\AdoptOpenJDK\jdk-11.0.11.9-hotspot\bin;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\nodejs\;C:\Program Files\Git\cmd;C:\Program Files\PostgreSQL\13\bin;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\an\AppData\Local\Microsoft\WindowsApps;;C:\Users\an\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\an\AppData\Roaming\npm
 
 Yarn version: 
   1.22.17
@@ -14,17 +14,17 @@ Platform:
   win32 x64
 
 Trace: 
-  Error: canceled
-      at Interface.<anonymous> (C:\Users\an\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:137143:13)
-      at Interface.emit (node:events:390:28)
-      at Interface._ttyWrite (node:readline:1081:16)
-      at ReadStream.onkeypress (node:readline:288:10)
-      at ReadStream.emit (node:events:390:28)
-      at emitKeys (node:internal/readline/utils:358:14)
-      at emitKeys.next (<anonymous>)
-      at ReadStream.onData (node:internal/readline/emitKeypressEvents:61:36)
-      at ReadStream.emit (node:events:390:28)
-      at addChunk (node:internal/streams/readable:315:12)
+  Error: https://registry.yarnpkg.com/@types%2fjext: Not found
+      at Request.params.callback [as _callback] (C:\Users\an\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:67029:18)
+      at Request.self.callback (C:\Users\an\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:140883:22)
+      at Request.emit (node:events:390:28)
+      at Request.<anonymous> (C:\Users\an\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:141855:10)
+      at Request.emit (node:events:390:28)
+      at IncomingMessage.<anonymous> (C:\Users\an\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:141777:12)
+      at Object.onceWrapper (node:events:509:28)
+      at IncomingMessage.emit (node:events:402:35)
+      at endReadableNT (node:internal/streams/readable:1343:12)
+      at processTicksAndRejections (node:internal/process/task_queues:83:21)
 
 npm manifest: 
   {
@@ -33,7 +33,8 @@ npm manifest:
       "scripts": {
           "start": "gulp",
           "clean": "gulp clean",
-          "build": "gulp build"
+          "build": "gulp build",
+          "watch": "gulp watch"
       },
       "dependencies": {
           "@babel/core": "7.16.7",

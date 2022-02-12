@@ -1,11 +1,15 @@
 {
   "compilerOptions": {
     "module": "commonjs",
-    "target": "es5",
+    "target": "ES2019",
     "sourceMap": true
   },
   "moduleResolution": "node",
-  "include": ["src/ts/**/*.ts"],
+  "noEmit": true,
+  "baseUrl": "./",
+  "include": [
+    "./src/ts/**/*.ts"
+  ],
   "exclude": [
     "node_modules"
   ]

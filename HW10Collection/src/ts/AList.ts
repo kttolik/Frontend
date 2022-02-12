@@ -37,7 +37,23 @@ export class AList implements IList {
     }
 
     helpRevers(): void {
-
+        let tmp = 0;
+        if (this.size % 2 === 0) {
+            for (let i = 0; i < (this.size/2); i++){
+                tmp = this.array[i];
+                this.array[i] = this.array[this.size / 2 + i]
+                this.array[this.size / 2 + i] = tmp;
+                tmp = 0;
+            }
+        }
+        else{
+            for (let i = 0; i < Math.round(this.size/2)-1; i++){
+                tmp = this.array[i];
+                this.array[i] = this.array[Math.round(this.size / 2) + i]
+                this.array[Math.round(this.size / 2) + i] = tmp;
+                tmp = 0;
+            }
+        }
     }
 
     maxIndex(): number {
