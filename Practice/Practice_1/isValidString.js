@@ -15,6 +15,7 @@ function isValidString(str) {
         } else {
 
             return 'INVALID';
+            
         }
     }
 
@@ -23,3 +24,6 @@ function isValidString(str) {
 
 
 module.exports = { isValidString,  isSymbol, checkSymbols };
+
+
+console.log(isValidString('Ar!123'))

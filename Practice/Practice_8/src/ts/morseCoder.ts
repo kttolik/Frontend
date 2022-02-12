@@ -1,4 +1,4 @@
-import {mappings} from "./morseTabl";
+import {mappings} from "./MorseTabl";
 
 export default function encodeMorse(string:string):string {
     let result = '';
@@ -14,6 +14,7 @@ export default function encodeMorse(string:string):string {
     const encodeArr = string.toUpperCase().split('');
 
     encodeArr.forEach(x => {
+
         mappings.forEach(el => {
             if (el.translation === x) {
                 result += el.symbol + " ";

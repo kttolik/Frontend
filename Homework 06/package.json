@@ -1,20 +1,15 @@
 {
-  "name": "homework-05",
+  "name": "HW06",
   "version": "1.0.0",
-  "description": "",
-  "main": "src/Homework_05.js",
-  "scripts": {
-    "cmd": "gulp",
-    "build": "yarn cmd default",
-    "watch": "yarn cmd watch"
-  },
-  "author": "",
-  "license": "ISC",
+  "main": "index.js",
+  "license": "MIT",
   "devDependencies": {
-    "gulp": "^4.0.2",
-    "gulp-sass": "^5.0.0",
+    "@types/jest": "^27.4.0"
   },
   "dependencies": {
-    "yarn": "^1.22.17"
+    "jest": "^27.4.7"
+  },
+  "scripts": {
+    "test": "jest"
   }
 }

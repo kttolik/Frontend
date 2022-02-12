@@ -1,4 +1,4 @@
-import {mappings} from "./morseTabl";
+import {mappings} from "./MorseTabl";
 
 
 export default function decodeMorse(string:string):string {
