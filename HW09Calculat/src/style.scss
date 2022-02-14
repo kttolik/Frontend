@@ -1,0 +1,95 @@
+.calculator-engin {
+    margin: 0px auto;
+    width: 750px;
+    height: 480px;
+    background: MidnightBlue;
+    color: white;
+    font-family: Arial;
+    border-radius: 15px;
+
+
+    &__screen {
+        height: 95px;
+        padding: 10px;
+        display: grid;
+        justify-items: end;
+        align-items: end;
+        margin-bottom: 25px;
+        border-radius: 15px;
+
+        &_screen p {
+            text-align: right;
+            font-size: 4rem;
+            margin: 0;
+        }
+    }
+}
+
+.buttons{
+    &__firstline {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &__secondline {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &__thirdline {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &__fourthline {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &__fiveline {
+        display: flex;
+        justify-content: space-between;
+    }
+}
+
+.btn {
+    width: 150px;
+    height: 65px;
+    background: RebeccaPurple;
+    text-align: center;
+    line-height: 60px;
+    font-size: 1.3rem;
+    cursor: pointer;
+    user-select: none;
+    padding:2px;
+
+}
+
+.btn.zero {
+    width: 308px;
+    background: RebeccaPurple;
+}
+
+.btn:hover {
+    filter: brightness(120%);
+}
+
+.btn:active {
+    filter: brightness(90%);
+}
+
+.btn.bg-light {
+    background: MediumPurple;
+}
+
+.btn.bg-dark {
+    background: Purple;
+
+}
+.equal {
+    border-bottom-right-radius: 15px;
+}
+
+.rad {
+    border-bottom-left-radius: 15px;
+}
